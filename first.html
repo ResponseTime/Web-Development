@@ -58,11 +58,49 @@
             </tr>
         </tbody>
     </table>
-    <ul type = "square">
+    <hr>
+    <ul type="square">
         <li><a href="https://instagram.com" target="blank"> instagram</a></li>
         <li><a href="https://youtube.com" target="_blank">youtube</a></li>
     </ul>
-
+    <h3>forms and input</h3>
+    <form action="backend.java">
+        
+        <div>
+            <label for="n">Name</label>
+            <input type="text" name="name" id="n">
+        </div>
+        <div>
+            Email: <input type="email" name="email">
+        </div>
+        <div>
+            <input type="date" name="Date" id="">
+        </div>
+        <div>
+            Number: <input type="number" name="num" id="">
+        </div>
+        <div>
+            <label for="ara">Ara Ara?</label>
+            <input type="checkbox" name="checkboc" id="ara">
+        </div>
+        <div>
+            <label for="car">Car</label>
+            <select name="car" id="car">Choose your car
+                <option value="Lambo">lambo</option>
+                <option value="ferrari" selected>ferrari</option>
+            </select>
+        </div>
+        <div>
+            Male <input type="radio" name="gen" id=""> Female <input type="radio" name="gen" id="">
+        </div>
+        <div>
+            About yourself:<textarea name="text" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
 </body>
 
 </html>
