@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+}
+#p{
+    background-color:lawngreen;
+    border: 2px solid black;
+}
+#p:hover{
+    border-radius: 20vh;
+    animation-timing-function: ease-in-out;
+    background-color:yellow;
+}
