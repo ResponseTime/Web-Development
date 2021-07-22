@@ -5,8 +5,17 @@ body{
     background-color:lawngreen;
     border: 2px solid black;
 }
+/* pbody commenting is css*/
 #p:hover{
+    transition:ease-in;
     border-radius: 20vh;
     animation-timing-function: ease-in-out;
     background-color:yellow;
+}
+
+.container{
+
+}
+.container,.bg{
+    
 }
