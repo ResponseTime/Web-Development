@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
 body{
     background-color: white;
 }
@@ -12,10 +13,22 @@ body{
     animation-timing-function: ease-in-out;
     background-color:yellow;
 }
-
+/* 
 .container{
 
 }
 .container,.bg{
     
+} */
+#op{
+    font-size: 46px; /*1/96th of an inch*/
+    font-family:'Fuggles';
+    line-height: 2.8em;
+   
+}
+span{
+    font-family: cursive;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
 }
