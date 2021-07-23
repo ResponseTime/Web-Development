@@ -32,3 +32,15 @@ span{
     color: red;
     font-style: italic;
 }
+#first{
+    color: royalblue;
+    background-color: blanchedalmond;
+}
+#second{
+    color: rgb(224, 149, 211);
+    background-color: teal;
+}
+#three{
+    color: #60D040;
+    background-color: chocolate;
+}
