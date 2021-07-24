@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
 body{
-    background-color: white;
+    color:white;
+    background-image: url(2109.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 #p{
     background-color:lawngreen;
