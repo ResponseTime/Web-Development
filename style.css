@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body{
     color:white;
     background-image: url(2109.jpg);
@@ -6,8 +11,10 @@ body{
     background-position: center center;
 }
 #p{
+    color:black;
+    padding: 14px;
     background-color:lawngreen;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 /* pbody commenting is css*/
 #p:hover{
@@ -48,6 +55,7 @@ span{
     background-color: chocolate;
 }
 #ui{
+    margin: 20px 20px;
     background-color: blue;
     color: white;
     /* border-width: 6px;
@@ -59,6 +67,7 @@ span{
     height: 30px;
 }
 #ui2{
+    margin: 20px 20px;
     background-color: rgb(224, 149, 211);
     color: black;
     width: 369px;
@@ -73,6 +82,7 @@ span{
     border-bottom-right-radius: 2px;
 }
 #ui3{
+    margin: 20px 20px;
     width: 700px;
     height: 500px;
     background-image: url(2109.jpg);
@@ -82,4 +92,23 @@ span{
     background-repeat: no-repeat;
     background-position: center right; /*cud use px too*/
     background-size:100px 200px;
+}
+.con{
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(255,23,34);
+    background-color: rgb(253, 173, 240);
+    border: 6px solid rgb(100, 47, 100);
+    /* padding: 89px;
+    margin: 55px; */
+    /* padding: 20px 20px 20px 20px; /*top right bottom left */
+    /* margin :60px 0px 20px 69px; */
+    /* padding: y(top/bottom),x(right/left); */
+    padding: 50px 50px;
+    margin-top: 100px;
+    margin-left: 900px;
+    margin-bottom: 100px;
+    width:1000px;
+    border-radius: 40px;
+    box-sizing: border-box;
 }
