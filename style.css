@@ -44,3 +44,39 @@ span{
     color: #60D040;
     background-color: chocolate;
 }
+#ui{
+    background-color: blue;
+    color: white;
+    /* border-width: 6px;
+    border-color: red;
+    border-style: dashed; */
+    border: 6px dashed red;
+    border-radius: 6px;
+    width: 369px;
+    height: 30px;
+}
+#ui2{
+    background-color: rgb(224, 149, 211);
+    color: black;
+    width: 369px;
+    height: 30px;
+    border-top: 9px solid purple;
+    border-bottom: 14px solid green;
+    border-left: 9px dashed red;
+    border-right: 8px dotted blue;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 2px;
+}
+#ui3{
+    width: 700px;
+    height: 500px;
+    background-image: url(2109.jpg);
+    color: white;
+    border: 6px solid red;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center right; /*cud use px too*/
+    background-size:100px 200px;
+}
