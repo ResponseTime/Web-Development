@@ -112,3 +112,36 @@ span{
     border-radius: 40px;
     box-sizing: border-box;
 }
+.container{
+    border-radius:30px;
+    padding:60px 20px;
+    border: 2px solid purple;
+    margin: 80px auto;
+    width: 1000px;
+}
+.item{
+    border-radius: 20px;
+    padding: 14px 20px;
+    border: 2px solid red;
+    margin: 20px 20px;
+    
+}
+#item1{
+    text-align: right;
+    float: left;
+    width:48%
+}
+#item2{
+    margin-bottom: 170px;
+    padding: 10px 40px;
+    text-align: center;
+    float:right;
+    width: 40%;
+}
+#item3{
+    text-align:center;
+    clear: both;
+}
+#item4{
+    margin-top: 70px;
+}
