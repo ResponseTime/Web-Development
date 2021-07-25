@@ -183,7 +183,8 @@ a{
     background-color: wheat;
 }
 .navbar{
-    border-radius: 40px;
+    border-radius: 30px;
+    margin: 0 20px;
     background-color: white;
 }
 .navbar ul{
@@ -192,7 +193,7 @@ a{
 }
 .navbar li{
     margin: 15px 20px;
-    float: right;
+    float: left;
     padding: 19px 9px;
 }
 .navbar ul li a{
@@ -206,6 +207,7 @@ a{
     color: white;
 }
 .search{
+    float: right;
     margin: 20px auto;
     padding: 10px 60px;
     
