@@ -106,7 +106,30 @@ main{
     text-align: justify;
     font-weight: bold;
 }
-main:hover{
-    transition: ease-in 0.7s;
-    background-color: #ddd;
+
+main p{
+    padding-left: 300px;
+    width: 800px;
+    height: 450px;
+}
+img{
+    border: 2px rgb(177, 103, 8) solid;
+    margin-right: 100px;
+    /* padding-right: 100px; */
+    height: 500px;
+    width: 900px;
+    float: right;
+}
+main .bt{
+    margin-left: 480px;
+    margin-top: 100px;
+}
+.bt{
+    background-color: rgb(179, 88, 28);
+    border-radius: 20px;
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+    color: beige;
+    font-weight: bold;
 }
