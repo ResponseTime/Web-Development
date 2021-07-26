@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.navb{
+    margin: 6px 3px;
+    border-radius: 20px;
+    background-color:rgb(184, 125, 54);
+}
+.navb ul{
+    overflow:auto;
+    padding:10px 20px;
+}
+.navb ul li{
+    list-style: none;
+    float:left;
+    padding: 22px 20px;
+}
+.navb ul li a{
+    color :white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+.navb ul li a:hover{
+    transition: ease-in 0.5s;
+    background-color:rgb(100, 65, 21);
+    border-radius: 69px;
+}
+.drop{
+    margin: 20px;
+    float:left;
+    height: 35px;
+    width: 100px;
+}
+.drop .btn{
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+.btn{
+    margin: 0 20px;
+    padding: 3px ;
+    /* margin-bottom:10px; */
+    background-color:transparent;
+    border: none;
+    width: 80px;
+    height: 20px;
+    font-size:20px;
+    font-weight:bold;
+    font-style: italic;
+    color: white;
+}
+.con{
+    padding-right: 70px;
+    display:none;
+    position: absolute;
+}
+.con a{
+    margin:10px;
+    margin-right: 0px;
+    position: relative;
+    background-color:beige;
+    color : black;
+    width:80px;
+    padding:20px 20px;
+    text-decoration:none;
+    display: block;
+    border-radius: 3px;
+
+}
+.drop:hover{
+    
+    transition: ease-in 0.5s;
+    background-color:rgb(100, 65, 21);
+    border-radius: 69px;
+}
+.drop:hover .con {
+    display: block;
+}
+.con a:hover{
+    background-color:#ddd;
+}
+.search{
+    float: right;
+    padding:20px 20px;
+    margin: 4px 10px;
+}
+.search .s{
+    height: 20px;
+    width: 500px;
+    background-color: beige;
+    border: none;
+    border-radius:20px;
+    padding:10px 20px;
+}
+main{
+    margin:10px 20px;
+    padding:20px 20px;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+}
+main:hover{
+    transition: ease-in 0.7s;
+    background-color: #ddd;
+}
