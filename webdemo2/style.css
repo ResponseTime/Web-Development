@@ -133,3 +133,28 @@ main .bt{
     color: beige;
     font-weight: bold;
 }
+ main .sidebar{
+    border-radius: 20px;
+    float: left;
+    border: 2px solid rgb(197, 145, 68);
+    width: 250px;
+    height: 800px;
+    text-align: center;
+}
+.sidebar ul{
+    overflow: auto;
+}
+.sidebar li{
+    list-style: none;
+    margin: 10px 20px;
+    padding: 20px 20px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    padding: 25px 60px;
+}
+.sidebar ul li a:hover{
+    border-radius: 30px;
+    background-color: brown;
+    color: burlywood;
+}
