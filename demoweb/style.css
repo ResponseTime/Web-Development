@@ -50,3 +50,55 @@ body{
     float:right;
     width: 400px;
 }
+.container3{
+    border-radius: 30px;
+    border:4px solid purple;
+    padding: 20px 40px;
+    margin: 40px auto;
+    width: 400px;
+}
+.navb{
+    margin: auto;
+    padding:10px 20px;
+}
+.navb ul{
+    margin: 10px 20px;
+    overflow: auto;
+}
+.navb li{
+    padding:10px 10px;
+    list-style: none;
+    float: left;
+}
+.navb ul li a{
+    padding:10px 60px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navb ul li a:hover{
+    color:white;
+    border-radius: 30px;
+    background-color: purple;
+    transition: ease-in 0.5s;
+}
+.active{
+    color:white;
+    border-radius:  30px;
+    background-color:purple;
+}
+.drop{
+    position: relative;
+    display: inline-block;
+}
+.drop .con{
+    position: absolute;
+    display: none;
+}
+.con a{
+    text-decoration: none;
+    display: block;
+}
+.click:hover .drop .con{
+    display: block;
+}
