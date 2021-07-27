@@ -158,3 +158,19 @@ main .bt{
     background-color: brown;
     color: burlywood;
 }
+/* .footer{
+    margin-top: 600px;
+    text-align: center;    
+    width: 100%;
+    background-color:rgb(184, 125, 54);
+    padding: 40px 20px;
+    
+} */
+.content{
+    padding: 20px 50px;
+    margin: 40px 60px;
+    width: 800px;
+    height: 600px;
+    float: right;
+    margin-bottom: 40px;
+}
