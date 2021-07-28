@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(gym1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+header{
+    position: sticky;
+    top: 1px;
+    overflow: auto;
+    margin: auto;
+    width: 33%;
+    text-align: center;
+}
+.navbar{
+    height: 67px;
+    background-color: rgb(57, 56, 56);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgb(57, 56, 56);
+    margin: auto;
+    padding: 20px 20px;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 20px 10px;
+    margin: 10px 20px;
+    color: white;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background-color: rgb(83, 81, 81);
+    border-radius: 20px;
+}
+img{
+    cursor: pointer;
+    width: 66px;
+    height: 67px;
+    float: left;
+}
