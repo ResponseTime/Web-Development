@@ -217,3 +217,17 @@ a{
     border: 1px solid gray;
     padding: 5px 10px;
 }
+.id{
+    display: inline;
+    padding:10px 20px;
+}
+.if{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.bl{
+    text-align: center;
+    border: 1px solid gray;
+    margin: auto;
+    width: 15%;
+}
