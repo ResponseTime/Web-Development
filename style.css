@@ -231,3 +231,36 @@ a{
     margin: auto;
     width: 15%;
 }
+.ct{
+    background-color: orange;
+    border: 1px solid gray;
+    height: 4000px;
+}
+.bo{
+    text-align: center;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+#bo1{
+    position: relative;
+    top: 40px;
+    left: 60px;
+    right: 90px;
+}
+#bo3{
+    position: absolute;
+    right: 50px;
+    top: 34px;
+}
+#bo2{
+    /* position: fixed;
+    bottom: 50px; */
+    position: sticky;
+    top: 2px;
+   
+
+}
