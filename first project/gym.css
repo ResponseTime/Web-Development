@@ -25,7 +25,7 @@ header{
     border-bottom-right-radius: 20px;
     border: 1px solid rgb(57, 56, 56);
     margin: auto;
-    padding: 20px 20px;
+    padding: 20px 10px;
 }
 .navbar a{
     text-decoration: none;
@@ -43,4 +43,24 @@ img{
     width: 66px;
     height: 67px;
     float: left;
+}
+.con{
+    display: block;
+    position: absolute;
+    padding: 10px 20px;
+}
+.en{
+    width: 70px;
+    
+    float: right;
+
+    margin-bottom: 30px;
+    margin-right: 110px;
+}
+.btn{
+    background-color: rgb(57, 56, 56);
+    border: none;
+    padding-top: 6px;
+    width: 70px;
+    color: white;
 }
