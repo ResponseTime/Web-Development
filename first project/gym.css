@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,20 +6,20 @@
 }
 
 body{
-    background-image: url(gym1.jpg);
+    background-image: url(gym.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
+    font-family:  'Roboto Mono', monospace;
 }
-header{
+
+.navbar{
     position: sticky;
     top: 1px;
-    overflow: auto;
+    
     margin: auto;
     width: 33%;
     text-align: center;
-}
-.navbar{
     height: 67px;
     background-color: rgb(57, 56, 56);
     border-bottom-left-radius: 20px;
@@ -37,30 +38,65 @@ header{
 .navbar a:hover{
     background-color: rgb(83, 81, 81);
     border-radius: 20px;
+    text-decoration: underline;
 }
 img{
+    border-radius: 20px;
     cursor: pointer;
     width: 66px;
     height: 67px;
     float: left;
+    margin-left: 2px;
 }
 .con{
     display: block;
     position: absolute;
     padding: 10px 20px;
 }
-.en{
-    width: 70px;
-    
-    float: right;
-
-    margin-bottom: 30px;
-    margin-right: 110px;
+.chat{
+    position: fixed;
+    display: inline;
+    right: 0px;
+    bottom: 12px;
+    width: 60px;
 }
-.btn{
-    background-color: rgb(57, 56, 56);
+.ch{
     border: none;
-    padding-top: 6px;
-    width: 70px;
+    width: 60px;
+    padding: 10px 10px;
+    border-radius: 90px;
+    background-color:rgb(83, 81, 81);
     color: white;
+    cursor: pointer;
+    
+}
+.ch:hover{
+    background-color: #ddd;
+    color:black;
+}
+form{
+    padding:70px 20px;
+    border: 2px solid red;
+    width: 60%;
+    margin:90px auto;
+    text-align: center;
+
+}
+label{
+    width: 60px;
+    font-size:30px;
+    font-weight: bold;
+    padding:20px 0px;
+    padding-right: 80px;
+    margin: 20px auto;
+    color:rgb(57, 56, 56);
+}
+input{
+    width: 33%;
+    padding:0px 20px;
+    margin:20px 40px;
+    text-align: center;
+}
+input[type=email]{
+    margin-right: 50px;
 }
