@@ -11,6 +11,7 @@ body{
     background-size: cover;
     background-blend-mode: darken;
     font-family:  'Roboto Mono', monospace;
+    
 }
 
 .navbar{
@@ -56,7 +57,7 @@ img{
 .chat{
     position: fixed;
     display: inline;
-    right: 0px;
+    right: 20px;
     bottom: 12px;
     width: 60px;
 }
@@ -76,7 +77,8 @@ img{
 }
 form{
     padding:70px 20px;
-    border: 2px solid red;
+    background-color: #ddd;
+    border-radius: 20px;
     width: 60%;
     margin:90px auto;
     text-align: center;
@@ -99,4 +101,10 @@ input{
 }
 input[type=email]{
     margin-right: 50px;
+}
+button{
+    width: 70px;
+    height: 60px;
+    margin: 10px 20px;
+    padding: 10px auto;
 }
