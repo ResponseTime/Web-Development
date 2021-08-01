@@ -264,3 +264,30 @@ a{
    
 
 }
+.bx{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#b1{
+    position: relative;
+    top: 69px;
+    z-index: 45;
+    background-color: rebeccapurple;
+}
+#b2{
+    position: relative;
+    z-index: 200;
+    top: 14px;
+    background-color: royalblue;
+}
+#b3{
+    position: relative;
+    z-index: 60;
+    background-color: #60D040;
+}
+#b4{
+    visibility: hidden;
+    background-color: aqua;
+}
