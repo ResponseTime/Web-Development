@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: rgb(71, 67, 67);
     height: 8000px;
 }
 .container{
@@ -24,13 +25,13 @@ body{
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 3em;
 }
 .cont{
-    width: 140px;
-    height : 120px;
+    max-width: fit-content;
+    max-height: fit-content;
     position:absolute;
-    left: 1475px;
+    left: 1437px;
     display: none;
     margin: 30px;
     padding: 10px;
@@ -38,7 +39,7 @@ body{
     background-color: black;
 }
 .cont a{
-    color: white;
+    color: white !important;
     text-decoration: none;
     display: block;
     padding: 20px 20px;
@@ -50,5 +51,9 @@ body{
 }
 
 .item:hover a{
-    color: red !important;
+    color: red ;
+}
+
+.cont a:hover {
+    color: gray !important;
 }
