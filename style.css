@@ -329,3 +329,20 @@ a{
 #iy4{
     order:2;
 }
+.cr{
+    border: 2px solid red;
+    text-align: center;
+    font-size: 20px;
+}
+
+#t1{
+    font-size: 5em;
+    padding: 2em 4em;
+}
+html{
+    font-size: 30px;
+}
+#t2{
+    font-size: 6rem;
+    padding: 2rem 2rem;
+}
