@@ -346,3 +346,35 @@ html{
     font-size: 6rem;
     padding: 2rem 2rem;
 }
+.boxs{
+    text-align: center;
+    font-size:50px;
+    padding:10px 20px;
+    display: none;
+}
+@media only screen and (max-width: 300px){
+    #bot1{
+        display: block;
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    #bot2{
+        display: block;
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px){
+    #bot3{
+        display:block;
+        background-color: orange;
+    }
+}
+@media only screen and (min-width: 900px){
+    #bot4{
+        display: block;
+        background-color:green;
+    }
+}
