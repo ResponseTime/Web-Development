@@ -378,3 +378,19 @@ html{
         background-color:green;
     }
 }
+.conti>p{
+    background-color: yellow;
+    color: green;
+}
+.conti + p{
+    background-color: red;
+    color: wheat;
+    margin-bottom: 20px;
+}
+.conti ul li p{
+    background-color: purple;
+    color: pink;
+}
+.conti ul p{
+    background-color: gray;
+}
