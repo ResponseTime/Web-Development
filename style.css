@@ -447,3 +447,31 @@ input[type='password'],input[type='text']{
     display: block;
     content: "hello after content"
 }
+.car{
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 40px;
+    padding: 10px 20px;
+    width: 240px;
+    background-color: yellow;
+    border-radius: 20px;
+    /* box-shadow: 10px 15px 23px 3px orange; */
+    /* inset if box box-shadow: in; */
+}
+.cards p{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 1px 2px salmon;
+}
+
+.cards:hover{
+    box-shadow: 10px 15px 15px 2px teal;
+    transition: ease-out 0.5s;
+}
