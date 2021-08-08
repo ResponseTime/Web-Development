@@ -430,3 +430,20 @@ input[type='password'],input[type='text']{
 .cu ul li{
     list-style: none;
 }
+#para{
+    margin: 10px 20px;
+    border: 2px solid red;
+    padding: 10px 20px;
+}
+#para::before{
+    text-align: center;
+    padding: 10px 20px;   
+    display: block;
+    content: "hello b4 content";
+}
+#para::after{
+    text-align: center;
+    padding: 10px 20px;
+    display: block;
+    content: "hello after content"
+}
