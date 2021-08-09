@@ -477,6 +477,8 @@ input[type='password'],input[type='text']{
     transition: ease-out 0.5s;
 }
 .ani{
+    display: flex;
+    justify-content: space-between;
     margin: 20px 20px;
     background-color: green;
     height: 300px;
@@ -490,8 +492,19 @@ input[type='password'],input[type='text']{
     background-color: orange;
     height: 200px;
     width: 200px;
-    animation: anime 2s ease-in-out 1s infinite forwards;
+    animation: anime 2s ease-out 1s infinite forwards;
     position: relative;
+}
+.anti{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    animation: anime1 2s ease-in 0s infinite alternate;
+    position: relative;
+    
 }
 @keyframes anime {
     0%{
@@ -510,16 +523,24 @@ input[type='password'],input[type='text']{
         top: 0px;
         left: 250px;
     }
+    90%{
+        top: 0px;
+        left: 650px;
+    }
+    95%{
+        top: 250px;
+        left: 650px;
+    }
     100%{
         top: 0px;
         left: 0px;
     }
 }
-/* @keyframes anime {
+@keyframes anime1 {
     from {
-        width: 200px;
+        width: 450px;
     }
     to{
-        width: 700px;
+        width: 800px;
     }
-} */
+}
