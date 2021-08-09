@@ -237,6 +237,7 @@ a{
     height: 4000px;
 }
 .bo{
+    transition: transform 500ms ease-in-out;
     text-align: center;
     background-color: red;
     width: 40px;
@@ -584,4 +585,45 @@ input[type='password'],input[type='text']{
     color: yellow;
     font-size: 50px;
     
+}
+.sq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    height: 80vh;
+}
+.sqw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background: brown;
+    animation: juj 2s ease-in 0s infinite alternate ;
+    position: relative;
+    transition: all 0.8s ease-in;
+}
+
+@keyframes juj {
+    0%{
+        top: 0px;
+        left: 0px;
+        transform: rotate(90deg);
+    }
+    20%{
+        top: 0px;
+        left: 200px;
+        transform: rotate(-45deg);
+    }
+    60%{
+        top: 0px;
+        left: 600px;
+        transform: rotate(90deg);
+    }
+    100%{
+        top: 0px;
+        left: 1000px;
+        transform: rotate(45deg);
+    }
 }
