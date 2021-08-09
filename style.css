@@ -476,3 +476,50 @@ input[type='password'],input[type='text']{
     box-shadow: 10px 15px 15px 2px teal;
     transition: ease-out 0.5s;
 }
+.ani{
+    margin: 20px 20px;
+    background-color: green;
+    height: 300px;
+    margin-bottom:250px;
+}
+.anibox{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    animation: anime 2s ease-in-out 1s infinite forwards;
+    position: relative;
+}
+@keyframes anime {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    40%{
+        top: 250px;
+        left: 0px;
+    }
+    60%{
+        top: 250px;
+        left: 250px;
+    }
+    80%{
+        top: 0px;
+        left: 250px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+/* @keyframes anime {
+    from {
+        width: 200px;
+    }
+    to{
+        width: 700px;
+    }
+} */
