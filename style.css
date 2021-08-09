@@ -560,14 +560,20 @@ input[type='password'],input[type='text']{
     color: green;
     transition: all 0.6s ease-in 0s;
     position: relative;
-    
+    animation: ni 6s ease-in 0s infinite reverse forwards;
 }
 @keyframes ni {
-    from{
-        width: 500px;
+    0%{
+        top: 0px;
+        left: 500px;
     }
-    to{
-        width: 1000px;
+    50%{
+        top: 0px;
+        left: 700px
+    }
+    100%{
+        top: 0px;
+        left: 1000px;
     }
 }
 .site:hover{
@@ -577,5 +583,5 @@ input[type='password'],input[type='text']{
     background-color: green;
     color: yellow;
     font-size: 50px;
-    animation: ni 0.6s ease-in 0s 1 normal forwards;
+    
 }
