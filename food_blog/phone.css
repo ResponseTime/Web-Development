@@ -35,8 +35,7 @@ section h1{
 }
 section p{
     z-index: 34;
-    padding: 10px 50px;
-    font-weight: 200;
+    padding: 0px 0px;
 }
 section button{
     z-index: 34;
@@ -63,8 +62,32 @@ section::before{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 .car{
     padding: 10px 5px;
     width: 350px;
+    margin: 7px;
+}
+
+.car:hover{
+    box-shadow: 0px 9px 16px 0px blue;
+    transition: 0.5s ease-in-out;
+}
+.clients img{
+    padding: 5px;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+}
+.our::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    background: url(bg2.jpg) no-repeat left center/cover;
+    height: 190vh;
+    max-height: fit-content;
+    z-index: -1;
+    opacity: 0.6;
 }
