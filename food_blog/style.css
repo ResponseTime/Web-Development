@@ -5,9 +5,16 @@
 body{
     background-color: #ddd;
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     display: flex;
     flex-wrap: wrap;
+}
+nav{
+    position: sticky;
+    top: 0px;
 }
 .logo img{
     width: 40px;
