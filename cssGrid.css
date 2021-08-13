@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-gap: 4px;
+}
+.item{
+    background-color: blue;
+}
