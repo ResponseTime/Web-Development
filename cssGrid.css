@@ -4,9 +4,11 @@
 }
 .container{
     display: grid;
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 4px;
 }
 .item{
     background-color: blue;
+    color: white;
+    text-align: center;
 }
