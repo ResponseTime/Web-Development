@@ -12,3 +12,13 @@
     color: white;
     text-align: center;
 }
+.grid{
+    display: grid;
+    grid-template-columns:repeat(9,2fr);
+    grid-template-rows: 2fr 6fr;
+    grid-auto-rows: 8fr;
+    grid-gap: 1rem;
+}
+.box{
+    background-color: aqua;
+}
