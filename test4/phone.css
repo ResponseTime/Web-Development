@@ -1,0 +1,20 @@
+.navbar ul li{
+    padding: 10px 0px;
+}
+.navbar ul li a{
+    padding: 0px 3px;
+}
+.dropcon{
+    left: 137px;
+}
+.navbar{
+    flex-flow: column wrap ;
+    align-items: center; 
+}
+section h1{
+    margin: 0px 0px;
+    font-size: 20px;
+}
+section p{
+    padding: 0px 0px;
+}
