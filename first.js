@@ -1,3 +1,3 @@
 console.log("hello");
 var a = "hello"
-console.log(a.substring(1,5))
+console.log(a.replace("hell","well"))
