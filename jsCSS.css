@@ -1,0 +1,9 @@
+.con{
+    color: red;
+}
+#nav>li:nth-child(3){
+    color: purple;
+}
+#lk>li{
+    list-style: none;
+}

@@ -57,3 +57,21 @@
 // for (const iterator of f) {
 //     console.log(`${iterator} is this`)
 // }
+//js.html
+// let js = document.getElementById('nav')
+// console.log(js.innerHTML);
+// // js.innerHTML = `
+// // <li>Home</li>
+// // <li>About</li>
+// // `;
+// let con = document.getElementsByClassName('con');
+// // con[0].innerHTML = "First container
+// con[1].innerHTML = "SECOND CONTAINER"
+// let css = document.querySelector(".con");
+// let fk = document.querySelector("#nav>li:nth-child(3)");
+// fk.innerHTML="<li>changed</li>"
+// let loop = document.getElementById('lk');
+// let items = loop.getElementsByTagName('li');
+// for(i = 0;i<items.length;i++){
+//     console.log(items[i].innerHTML);
+// }
