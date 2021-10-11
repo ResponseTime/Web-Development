@@ -7,3 +7,14 @@
 #lk>li{
     list-style: none;
 }
+
+#btnn{
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+}
+#color{
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+}

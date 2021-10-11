@@ -75,3 +75,37 @@
 // for(i = 0;i<items.length;i++){
 //     console.log(items[i].innerHTML);
 // }
+let btn = document.getElementById("btnn");
+let hea = document.getElementById("head");
+hea.addEventListener('mouseover',function change(){
+        hea.style.backgroundColor = 'black';
+        hea.style.color = 'white';
+        hea.style.textAlign = 'center';
+        hea.style.transition = '0.6s ease-in';
+});
+hea.addEventListener('mouseout',function ch(){
+    hea.style.color = 'black';
+    hea.style.backgroundColor = 'white';
+    hea.style.textAlign = 'left';
+});
+function hide() {
+    let head = document.getElementById("head");
+    if(head.style.display !='none'){
+        head.style.display = 'none';
+    }
+    else{
+        head.style.display = 'block';
+    }
+}
+let ch = document.getElementById("color");
+ch.innerHTML = "Dark Mode";
+ch.addEventListener('click',function ch(){
+    if(body.style.backgroundColor != 'black'){
+        body.style.backgroundColor = 'black';
+        body.style.color = 'white';
+    }
+    else{
+        body.style.backgroundColor = 'white';
+        body.style.color = 'black';
+    }
+});
